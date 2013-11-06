@@ -14,3 +14,10 @@ This is my set of default cap recipies for deploying with Capistrano. It takes c
 - iptables
 - fail2ban
 - newrelic
+
+###Usage
+1. ssh into server
+2. (remote) `adduser deploy --ingroup sudo`
+3. (remote) `exit`
+4. (local) `cap deploy:install`
+5. (local) `cap deploy:setup`
