@@ -1,3 +1,4 @@
+Note: This is dated, but I am leaving this here in case it helps anyone else. Provisioning has since been moved to Ansible and capistrano controls deployment as it should :) .
 # Capistrano Recipies
 
 This is my set of default cap recipies for deploying with Capistrano. It takes care of installing and provisioning the servers, no chef needed at the moment.
